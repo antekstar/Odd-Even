@@ -1,65 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>ytDoawnloader</class>
+ <widget class="QWidget" name="ytDoawnloader">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>220</width>
-    <height>91</height>
+    <width>332</width>
+    <height>103</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Youtube Downloader</string>
   </property>
-  <widget class="QPushButton" name="button">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>50</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>PushButton</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>ant 64x64.png</normaloff>ant 64x64.png</iconset>
+  </property>
+  <widget class="QLabel" name="labelurl">
    <property name="geometry">
     <rect>
      <x>20</x>
      <y>20</y>
-     <width>101</width>
+     <width>31</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Enter Number</string>
+    <string>URL:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="input">
+  <widget class="QLineEdit" name="inputurl">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>50</x>
      <y>20</y>
-     <width>113</width>
+     <width>261</width>
      <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>50</y>
-     <width>47</width>
-     <height>16</height>
     </rect>
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Download Video</string>
    </property>
   </widget>
  </widget>
